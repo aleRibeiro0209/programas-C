@@ -9,9 +9,11 @@ int main(){
 
     int sequenciaNumerica[5]; 
     float t;
-    t = 5;
 
-    for (int i = 0; i < 5; i++)
+    printf("Digite a quantidade de numeros que o array tera: ");
+    scanf("%f", &t);
+
+    for (int i = 0; i < t; i++)
     {
         printf("Digite o %d numero da sequencia numerica: ", i+1);
         scanf("%d", &sequenciaNumerica[i]);
