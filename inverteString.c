@@ -25,6 +25,7 @@ int main(){
 // Função para inverter e imprimir uma string. Essa função recebe como parâmetro o ponteiro da string(no caso o valor hexadecimal do endereço de memória)
 void inverteString(char *frase){
 
+    // A função strlen é uma função da biblioteca string.h e captura o tamanho da string
     int tamanhoS = strlen(frase); 
     char fraseInvertida[100]; 
     char aux;
