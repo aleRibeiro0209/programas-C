@@ -15,7 +15,7 @@ int main(){
     printf("Digite o conteudo da String: ");
     gets(frase);
      
-    inverteString(&frase);
+    inverteString(frase);
 
     getchar();
     return 0;
@@ -27,12 +27,10 @@ void inverteString(char *frase){
 
     // A função strlen é uma função da biblioteca string.h e captura o tamanho da string
     int tamanhoS = strlen(frase); 
-    char fraseInvertida[100]; 
-    char aux;
+    char fraseInvertida[100];
 
     for (int i = 0; i < tamanhoS; i++)
     {
-        aux = frase[i];
         fraseInvertida[i] = frase[tamanhoS - 1 - i];
     }
 
