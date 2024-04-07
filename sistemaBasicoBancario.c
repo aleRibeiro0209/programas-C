@@ -50,7 +50,11 @@ void verLogin() {
 	printf("Login: ");
 	scanf(" %c", &usuario);
 	
-	// Transforma o dado recebido em Maiuscula para que não acha diferença entre maiuscula e minuscula. Caso o usuario seja valido invoca a funcao que verifica a Senha, caso seja invalido solicita o login novamente de maneira recursiva
+	/* 	
+ 		Transforma o dado recebido em Maiuscula para que não haja diferença entre maiuscula e minuscula. 
+		Caso o usuario seja valido invoca a funcao que verifica a Senha, caso seja invalido solicita o login
+ 		novamente de maneira recursiva. 
+  	*/
 	if(toupper(usuario) == user) {
 		verSenha();
 	} else {
