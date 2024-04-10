@@ -4,7 +4,7 @@
     Date: 10/04/24 09:48
     Description: Programa para demonstrar o algoritmo da Pilha - LIFO => Last in First out
 
-    - A conversão binário é limitada em relação ao tamanho da máximo da minha pilha gi
+    - A conversão binário é limitada em relação ao tamanho da máximo da minha pilha
 */
 // Importando bibliotecas
 #include <stdio.h>
