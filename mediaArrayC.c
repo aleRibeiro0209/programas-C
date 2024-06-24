@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // Prototipação
-float media(float tamanho, int *sequenciaNumerica);
+float media(float, int *);
 
 // Função principal
 int main(){
